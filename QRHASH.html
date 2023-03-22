@@ -1,0 +1,23 @@
+<html><head> <meta http-equiv="Content-Type" content="image/png; charset=utf-8">
+<script type="text/javascript" src="qrcode.js"></script>
+<script type="text/javascript" src="html5-qrcode.js"></script>
+<script type="text/javascript">
+function drawqrcoder() {
+	var element = document.getElementById("drawqrcoder");
+	aa = window.location.hash.substr(1,window.location.hash.length - 1);
+	element.appendChild(showQRCode(aa));
+	
+	//console.log(showQRCode(aa));
+	//console.log(aa);
+
+	};
+</script>
+
+</head>
+<body onload="drawqrcoder()">
+    <!-- This is where our QRCode will appear in. -->
+    <div id="drawqrcoder"/></div>
+
+
+  </body>
+</html>
