@@ -1,6 +1,17 @@
 This example shows how you can create a QR Code PNG using Javascript and HTML5.
 
-Notes:
+Usage:  http://localhost/QRCode/QRHASH.html#QRTEXTGOESHERE
+
+Or Usage:  file://c:/temp/QRCode/QRHASH.html#QRTEXTGOESHERE
+
+Alternate method for ASPX is stored at ZXing's Github
+
+Core:
+QR JavaScript-HTML5 QRCode Generator
+Copyright (c) 2011 Amanuel Tewolde
+
+
+Previous Notes:
 ---
 This is the heart of my Tab Transmit Safari Extension.
 
