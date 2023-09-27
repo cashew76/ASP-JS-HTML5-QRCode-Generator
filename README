@@ -5,6 +5,7 @@ Usage:  http://localhost/QRCode/QRHASH.html#QRTEXTGOESHERE
 Or Usage:  file://c:/temp/QRCode/QRHASH.html#QRTEXTGOESHERE
 
 Alternate method for ASPX is stored at ZXing's Github
+http://localhost/QRCode/QRDotNet.aspx?QRTEXTGOESHERE
 
 Core:
 QR JavaScript-HTML5 QRCode Generator
